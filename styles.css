@@ -720,7 +720,7 @@ body{
         margin-left: 75px;
     }
     .menu-toggle{
-        display: none;
+        opacity: 0;
     }
 }
 
