@@ -6,6 +6,7 @@ menuToggle.addEventListener("click",function(){
 });
 document.addEventListener("click", function(e){
     if (!menu.contains(e.target) && !e.target.matches(".menu-toggle")){
-        menu.classList.remove("is-active");
+        menu.classList.remove("is-active")
+        
     }
 });
